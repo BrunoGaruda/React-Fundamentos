@@ -86,3 +86,6 @@ yarn add cros-env -D
 
 "dev": "webpack serve",
 "build": "cross-env NODE_ENV=production webpack"
+
+• 2 Loaders para o css
+yarn add style-loader css-loader -D
