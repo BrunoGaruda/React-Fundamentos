@@ -78,3 +78,11 @@ yarn webpack serve
 
 • Dentro de webpack.config.js
 devtool: 'eval-source-map',
+
+• Serve para definir variáveis ambiente indepentende do sistema operacional
+yarn add cros-env -D
+
+• Novos scripts (atalhos) para acelerar o desenvolvimento
+
+"dev": "webpack serve",
+"build": "cross-env NODE_ENV=production webpack"
