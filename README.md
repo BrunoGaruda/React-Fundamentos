@@ -63,3 +63,7 @@ yarn webpack
 
 - No babel.config.js foi adicionado a config: runtime: 'automatic', para evitar imports do react nos arquivos jsx.
 - <App /> foi adicionado ao primeiro parâmetro do render
+
+• plugin para auxiliar na automatização do bundle na aplicação
+
+yarn add html-webpack-plugin -D
