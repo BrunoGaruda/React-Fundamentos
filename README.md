@@ -54,3 +54,12 @@ webpack.config.js
 - Testando o webpack
 
 yarn webpack
+
+## Criando a estrutura do ReactJs
+
+• Dentro do index.html teremos apenas uma div com id root
+
+(yarn webpack) será utilizado para testar o render criado em index.jsx(root para o index.html)
+
+- No babel.config.js foi adicionado a config: runtime: 'automatic', para evitar imports do react nos arquivos jsx.
+- <App /> foi adicionado ao primeiro parâmetro do render
