@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+// const { dirname } = require('path')
 
 module.exports = {
   mode: 'development',
@@ -10,6 +11,11 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx']
+  },
+  // Use Static insted contentBase
+  // https://webpack.js.org/configuration/dev-server/#devserver
+  devServer: {
+    static: path.resolve(__dirname, 'public')
   },
   plugins: [
     new HtmlWebpackPlugin({

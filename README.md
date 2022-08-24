@@ -67,3 +67,9 @@ yarn webpack
 • plugin para auxiliar na automatização do bundle na aplicação
 
 yarn add html-webpack-plugin -D
+
+• servidor de desenvolvimento para automatizar a produção
+
+yarn add webpack-dev-server -D
+
+yarn webpack serve
