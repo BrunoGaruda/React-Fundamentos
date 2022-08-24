@@ -40,3 +40,17 @@ https://babeljs.io/
 
 - Necessário criar um preset do react para o babel entender
   yarn add @babel/preset-react -D
+
+## Adicionando o Webpack ao projeto
+
+• Webpack serve pra importar outros arquivos de tipos de imagens e pré-processadores ex:.sass, convertendo em arquivos legíveis para o browser
+
+yarn add webpack webpack-cli / depois webpack-dev-server -D
+
+webpack.config.js
+
+- É passado o caminho, checagem de arquivos e a exclusão do node_modules e o babel-loader(integração entre babel e webpack)
+  yarn add babel-loader -D
+- Testando o webpack
+
+yarn webpack
