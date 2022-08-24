@@ -73,3 +73,8 @@ yarn add html-webpack-plugin -D
 yarn add webpack-dev-server -D
 
 yarn webpack serve
+
+• Search maps forma de conseguir vizualizar o código original utilizando o bundle, ex: no inspecionar as linhas são diferentes ao encontrar um erro.
+
+• Dentro de webpack.config.js
+devtool: 'eval-source-map',
