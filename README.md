@@ -89,3 +89,15 @@ yarn add cros-env -D
 
 • 2 Loaders para o css
 yarn add style-loader css-loader -D
+
+• SASS loader
+yarn add node-sass -D
+yarn add sass-loader -D
+
+## Debuging
+
+• Ao executar os pacotes do sass estava dando erro, foi necessário reinstalar o node_modules
+
+## Criando a componentização
+
+componente: É uma função que começa sempre com a primeira letra maiúscula devolvendo um html. O nome do arquivo sempre em letra maiúscula e apenas um componente por arquivo
