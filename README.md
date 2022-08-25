@@ -100,4 +100,10 @@ yarn add sass-loader -D
 
 ## Criando a componentização
 
-componente: É uma função que começa sempre com a primeira letra maiúscula devolvendo um html. O nome do arquivo sempre em letra maiúscula e apenas um componente por arquivo
+• Conceitos
+
+- componente: É uma função que começa sempre com a primeira letra maiúscula devolvendo um html. O nome do arquivo sempre em letra maiúscula e apenas um componente por arquivo
+
+- propriedades: O componente pai pode enviar informações para o filho atraves do argumento props dentro da função do componente filho.
+
+- estado:
