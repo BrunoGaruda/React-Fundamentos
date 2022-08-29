@@ -106,4 +106,4 @@ yarn add sass-loader -D
 
 - propriedades: O componente pai pode enviar informações para o filho atraves do argumento props dentro da função do componente filho.
 
-- estado:
+- estado: Irá monitorar as variáveis em que estão marcadas no estado, para renderizar apenas o que é necessário
