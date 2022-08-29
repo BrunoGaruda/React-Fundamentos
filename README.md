@@ -107,3 +107,5 @@ yarn add sass-loader -D
 - propriedades: O componente pai pode enviar informações para o filho atraves do argumento props dentro da função do componente filho.
 
 - estado: Irá monitorar as variáveis em que estão marcadas no estado, para renderizar apenas o que é necessário
+
+- imutabilidade: conceito de criar uma nova informação (ex um array), utilizando um novo array pra salvar a info antiga mais a nova, do que alterar a antiga, preservando a imutabilidade, tudo que é antigo permanece do jeito antigo.
