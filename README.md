@@ -109,3 +109,11 @@ yarn add sass-loader -D
 - estado: Irá monitorar as variáveis em que estão marcadas no estado, para renderizar apenas o que é necessário
 
 - imutabilidade: conceito de criar uma nova informação (ex um array), utilizando um novo array pra salvar a info antiga mais a nova, do que alterar a antiga, preservando a imutabilidade, tudo que é antigo permanece do jeito antigo.
+
+• Fast Refresh
+
+- Torna o desenvolvimento mais interessante na questão da atualização das variáveis do estado, durante as alterações e salvamentos do código, normalmente os estados voltam ao seu valor primário, e existem momentos em que não queremos que isso aconteça como por ex em um e-commerce em que estamos testando um carrinho de compras. O Fast Refresh deixa os estados imutáveis durante o desenvolvimento.
+
+- https://github.com/pmmmwh/react-refresh-webpack-plugin
+- yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+- Em webpackconfig.js importamos o ReactRefreshWebpackPlugin
