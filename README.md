@@ -123,3 +123,18 @@ yarn add sass-loader -D
 • Resumo do 2 hooks
 
 - https://pt-br.reactjs.org/docs/hooks-overview.html
+
+## Adicionando Typescript
+
+yarn add typescript -D
+yarn tsc --init
+
+- configurando o tsconfig.json
+- Babel precisa de mais um pacote para entender pois ele so entende Javascript
+
+yarn add @babel/preset-typescript -D
+
+- Após renomear index.jsx para .tsx, alguns erros apareceram e é necessário instalar mais um pacote
+
+yarn add @types/react-dom -D
+yarn add @types/react -D -- instalado por precaução

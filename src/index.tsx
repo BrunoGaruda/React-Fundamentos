@@ -1,5 +1,3 @@
-// import React from 'react'
-
 // before 18
 // import { render } from 'react-dom'
 // in react 18
