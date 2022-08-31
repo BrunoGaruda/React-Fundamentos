@@ -117,3 +117,9 @@ yarn add sass-loader -D
 - https://github.com/pmmmwh/react-refresh-webpack-plugin
 - yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 - Em webpackconfig.js importamos o ReactRefreshWebpackPlugin
+
+## useState e useEffect
+
+• Resumo do 2 hooks
+
+- https://pt-br.reactjs.org/docs/hooks-overview.html
